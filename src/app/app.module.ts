@@ -8,13 +8,17 @@ import { MyApp } from './app.component';
 import { QuotePage } from '../pages/quote/quote';
 import { SettingsPage } from '../pages/settings/settings';
 import { FavoritesPage } from '../pages/favorites/favorites';
+import { QuotesPage } from '../pages/quotes/quotes';
+import { LibraryPage } from '../pages/library/library';
 
 @NgModule({
   declarations: [
     MyApp,
     FavoritesPage,
     QuotePage,
-    SettingsPage
+    SettingsPage,
+    QuotesPage,
+    LibraryPage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +26,12 @@ import { FavoritesPage } from '../pages/favorites/favorites';
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp
+    MyApp,
+    FavoritesPage,
+    QuotePage,
+    SettingsPage,
+    QuotesPage,
+    LibraryPage
   ],
   providers: [
     StatusBar,

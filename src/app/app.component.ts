@@ -6,6 +6,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FavoritesPage } from '../pages/favorites/favorites';
 import { QuotePage } from '../pages/quote/quote';
 import { SettingsPage } from '../pages/settings/settings';
+import { QuotesPage } from '../pages/quotes/quotes';
+import { LibraryPage } from '../pages/library/library';
 
 @Component({
   templateUrl: 'app.html'
