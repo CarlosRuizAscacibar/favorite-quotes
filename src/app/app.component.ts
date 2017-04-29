@@ -3,17 +3,13 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { FavoritesPage } from '../pages/favorites/favorites';
-import { QuotePage } from '../pages/quote/quote';
-import { SettingsPage } from '../pages/settings/settings';
-import { QuotesPage } from '../pages/quotes/quotes';
-import { LibraryPage } from '../pages/library/library';
+import { TabsPage } from '../pages/tabs/tabs';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = FavoritesPage;
+  rootPage:any = TabsPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
