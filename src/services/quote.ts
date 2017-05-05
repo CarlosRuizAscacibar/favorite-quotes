@@ -10,7 +10,7 @@ export class QuotesService{
     const position = this.favoriteQuotes.findIndex((quoteElement) =>{
       return quoteElement.id == quote.id;
     });
-    this.favoriteQuotes.slpice(position,1);
+    this.favoriteQuotes.splice(position,1);
   }
 
   getFavoriteQuotes(){
